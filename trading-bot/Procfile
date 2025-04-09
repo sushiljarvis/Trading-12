@@ -1,0 +1,2 @@
+cd ~/trading-bot
+echo "worker: python main.py" > Procfile

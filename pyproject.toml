@@ -1,0 +1,19 @@
+
+[tool.poetry]
+name = "trading-bot"
+version = "0.1.0"
+description = "Automated trading bot for Nifty/BankNifty with Telegram integration"
+authors = ["Sushil Jarvis <teraemail@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "trading_bot" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.0.0"
+numpy = "^1.25.0"
+requests = "^2.31.0"
+pyTelegramBotAPI = "^4.14.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
